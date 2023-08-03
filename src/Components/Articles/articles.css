@@ -1,0 +1,9 @@
+.articles {
+    flex: 12;
+    display: flex;
+    flex-wrap: wrap;
+    width: 636px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 402px;
+}

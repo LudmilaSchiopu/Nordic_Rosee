@@ -1,0 +1,55 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 854px;
+    
+    
+    align-items: center;
+    justify-content: center;
+    
+    
+    text-align: center;
+    margin-left: 293px;
+   
+}
+
+.main_image {
+    margin-top: 77px;
+}
+
+.main_title {
+    font-weight: 700;
+    font-size: 54px;
+    font-family: New York Extra Large;
+    line-height: 54px;
+    color: inherit;
+    height: 162px;
+    
+}
+
+.main_text {
+    width: 592px;
+    font-weight: 400;
+    font-size: 20px;
+    
+    line-height: 34px;
+    align-items: center;
+}
+
+.button_line {
+    width: 640px;
+    height: 2px;
+    background-color:  black;
+    margin: 0 auto;
+}
+
+.article_title {
+    font-weight: 700;
+    font-size: 44px;
+    color: inherit;
+    line-height: 52.51px;
+    width: 225px;
+    
+    margin-top: 62px;
+    font-family: New York Extra Large;
+}

@@ -1,0 +1,43 @@
+.header {
+    
+    max-width: 1440px;
+    top: 0;
+    left: 0;
+    height: 133px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.16);
+    z-index: 50;
+}
+
+.logo {
+    color: inherit;
+    font-size: 30px;
+    
+    margin-left: 63.58px;
+}
+
+.logo_image {
+    width: 395.83px;
+    height: 37.53px;
+}
+
+.header_menu {
+    font-size: 20px;
+    margin-right: 63.58px;
+    margin-left: 476.59px;
+    width: 443px;
+}
+
+.menu_list {
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: New York Small;   
+}
+
