@@ -5,6 +5,8 @@ import Navbar from '../Navbar/navbar';
 import Main from '../Main/main';
 
 import Articles from '../Articles/articles';
+import Footer from '../Footer/footer';
+
 
 
 
@@ -17,6 +19,7 @@ function App() {
                 <Navbar/>
                 <Main/>
                 <Articles/>
+                <Footer/>
                 
             </div>
         )
