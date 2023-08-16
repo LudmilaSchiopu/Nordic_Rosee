@@ -11,6 +11,7 @@
     font-weight: 500;
     border-bottom: 2px solid rgba(0, 0, 0, 0.16);
     z-index: 50;
+    
 }
 
 .logo {
@@ -26,11 +27,13 @@
 }
 
 .header_menu {
-    font-size: 20px;
+    
     margin-right: 63.58px;
     margin-left: 476.59px;
     width: 443px;
 }
+
+
 
 .menu_list {
     display: flex;
@@ -38,6 +41,19 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    font-family: New York Small;   
+      
+}
+
+
+.menu_text {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: New York Small; 
+    color: inherit;
+}
+
+a.menu_text:hover {
+    border-bottom: 3px solid  #000000;
+    color: #5b26e3;
 }
 

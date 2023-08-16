@@ -7,10 +7,18 @@ const Navbar = () => {
             <div className='logo'> <img src={NORDIC_ROSE} alt="NORDIC_ROSE" className='logo_image' /></div>
             <nav className='header_menu'>
                 <ul className='menu_list'>
-                    <li className='menu_text'>Blog</li>
-                    <li className='menu_text'>About</li>
-                    <li className='menu_text'>Links</li>
-                    <li className='menu_text'>Projects</li>
+                    <li >
+                        <a className='menu_text' href="#!">Blog</a>
+                    </li>
+                    <li >
+                        <a className='menu_text' href="#!">About</a>
+                    </li>
+                    <li >
+                        <a className='menu_text' href="#!">Links</a>
+                    </li>
+                    <li >
+                        <a className='menu_text' href="#!">Projects</a>
+                    </li>
                 </ul>
             </nav>
         </header>
