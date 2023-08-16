@@ -4,6 +4,7 @@ import NORDIC_ROSE from './../../img/NORDIC_ROSE.png';
 const Navbar = () => {
     return (
         <header className='header'>
+            <div className='header_container'>
             <div className='logo'> <img src={NORDIC_ROSE} alt="NORDIC_ROSE" className='logo_image' /></div>
             <nav className='header_menu'>
                 <ul className='menu_list'>
@@ -21,6 +22,8 @@ const Navbar = () => {
                     </li>
                 </ul>
             </nav>
+            </div>
+
         </header>
     )
 }

@@ -1,4 +1,4 @@
-.header {
+/*.header {
     
     max-width: 1440px;
     top: 0;
@@ -12,6 +12,25 @@
     border-bottom: 2px solid rgba(0, 0, 0, 0.16);
     z-index: 50;
     
+}*/
+
+.header_container {
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 133px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.header {
+    width: 100%;
+    left: 0;
+    top: 0;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.16);
+    z-index: 50;
 }
 
 .logo {
@@ -31,6 +50,7 @@
     margin-right: 63.58px;
     margin-left: 476.59px;
     width: 443px;
+    
 }
 
 
@@ -41,7 +61,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-      
+    
 }
 
 
@@ -49,6 +69,7 @@
     text-decoration: none;
     font-size: 20px;
     font-family: New York Small; 
+    font-weight: 500;
     color: inherit;
 }
 

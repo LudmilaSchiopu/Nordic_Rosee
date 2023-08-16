@@ -1,10 +1,25 @@
-.footer {
+/*.footer {
     width: 1440px;
     height: 464px;
     background-color: black;
     color: #FFFFFF;
     
     
+}*/
+
+.footer_container {
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 464px;
+    
+    color: #FFFFFF;
+}
+
+.footer {
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: black;
 }
 
 .footer_menu {

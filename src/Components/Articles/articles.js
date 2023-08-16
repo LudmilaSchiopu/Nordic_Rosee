@@ -74,10 +74,13 @@ const Articles = () => {
     const [articles, useArticles] = useState(defaultArticles);
     return (
         <div className='articles'>
-            {articles.map((article, i) => {
-                return <Article key={i} text={article.text} link=""
-                img={article.img}/>
-            })}
+            <div className="articles_container">
+                <div className='article_title'>All articles</div>
+                <div className="articles_blogs">
+                {articles.map((article, i) => {
+                    return <Article key={i} text={article.text} link=""
+                    img={article.img}/>
+                })}
 
 
 
@@ -85,6 +88,10 @@ const Articles = () => {
 
 
 
+            
+                </div>
+                
+            </div>
             
         </div>
     )

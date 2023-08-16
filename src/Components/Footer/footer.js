@@ -3,7 +3,8 @@ import NORDIC_ROSE2 from './../../img/NORDIC_ROSE2.png';
 
 const Footer = () => {
     return (
-        <div className='footer'>
+        <footer className='footer'>
+            <div className='footer_container'>
             <div className='footer_menu'>
                 <a href="#!"><b>Digital product design</b></a>
                 <a href="#!">Remote work</a>
@@ -30,7 +31,9 @@ const Footer = () => {
                 © 2012–2020 Nordic Rose Co. All rights reserved.
                 </div>
             </div>
-        </div>
+            </div>
+
+        </footer>
     )
 }
 
