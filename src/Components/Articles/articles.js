@@ -83,11 +83,6 @@ const Articles = () => {
                 })}
 
 
-
-
-
-
-
             
                 </div>
                 
