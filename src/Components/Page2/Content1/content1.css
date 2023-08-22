@@ -1,0 +1,14 @@
+.blog1_text {
+    width: auto;
+    
+    font-size: 20px;
+    font-weight: 400;
+    font-family: New York Medium;
+    color: inherit;
+    line-height: 170%;
+    
+}
+
+hr {
+    border-width: 0px;
+}
