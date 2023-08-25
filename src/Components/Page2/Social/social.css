@@ -1,0 +1,50 @@
+.blog1_social {
+    margin-top: 77px;
+    display: flex;
+    flex-direction: row;
+    width: 640px;
+    height: 64px;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid #EAEAEA;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.08);
+    position: relative;
+}
+
+.blog1_social-fb {
+    width: 184px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blog1_social-tw {
+    width: 165px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blog1_social-fb a{
+    width: 20px;
+    height: 20px;
+}
+
+.blog1_social-tw a{
+    width: 22px;
+    height: 18px;
+}
+
+.blog1_social-line {
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    margin-top: -64px;
+    width: 1px;
+    height: 64px;
+    background: #EAEAEA;
+}

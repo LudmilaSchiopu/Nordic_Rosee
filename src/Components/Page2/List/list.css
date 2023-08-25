@@ -1,0 +1,56 @@
+.blog1_list-title {
+    margin-top: 52px;
+    font-size: 20px;
+    font-family: 'New York Medium';
+    font-weight: 400;
+    line-height: 34px;
+    color: inherit;
+}
+
+.blog1_list {
+    height: 168px;
+    width: 588px;
+    
+    margin: 19px 0 0 0;
+    font-size: 20px;
+    font-family: 'New York Medium';
+    font-weight: 400;
+    line-height: 34px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    
+    
+}
+
+.blog1_list li::before{
+    content: '';
+    background: url('./../../../img/square-list.png') no-repeat;
+    background-size: 6px;
+    
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    left: 0;
+    
+    
+    
+    
+}
+
+
+/*.blog1_list li {
+    
+    padding: 0 0 0 15.76px;
+    background: url(./../../../img/square-list.png) left no-repeat ;
+    
+    background-size: 6px;
+    
+
+}*/
+
+.blog1_list li {
+    padding: 0 0 0 15.76px;
+}

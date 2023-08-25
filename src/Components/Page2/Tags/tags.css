@@ -1,0 +1,21 @@
+.blog1_tags {
+    margin-top: 32px;
+    font-size: 16px;
+    font-family: 'SF Pro Text';
+    font-weight: 500;
+    letter-spacing: 0.48px;
+    width: 240px;
+    height: 19px;
+    color: #0C0C0C;
+}
+
+.blog1_tags a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #0C0C0C;
+}
+
+.blog1_tags a:hover {
+    border-bottom: 2px solid #0C0C0C;
+    color: green;
+}

@@ -1,9 +1,14 @@
 
 import './blog1.css';
-import image_author from './../../../img/image_author.png';
-import facebook_icon from './../../../img/facebook_icon.png';
-import twiter_icon from './../../../img/twiter_icon.png';
 import Content1 from '../Content1/content1';
+import List from '../List/list';
+
+
+import Rectangle_8 from './../../../img/Rectangle_8.png';
+import Tags from '../Tags/tags';
+import Line_11 from './../../../img/Line_11.png';
+import Author from '../Author/author';
+import Social from '../Social/social';
 
 
 const Blog1 = () => {
@@ -12,20 +17,7 @@ const Blog1 = () => {
         <div>
             <div className="blog1">
                 <div className="blog1_container">
-                    <div className="blog1_author">
-                        <div className='blog1_author-info'>
-                        <img src={image_author} alt="image_author" className="blog1_author-img" />
-                        <div className="blog1_author-text">
-                            <span className="blog1_author-name">Mika MAtikainen</span>
-                            <span className="blog1_author-date">Apr 15, 2020 · 4 min read</span>
-                        </div>
-                        </div>
-                        
-                        <div className="blog1_author-social">
-                            <img src={facebook_icon} alt="facebook_icon" className="blog1_author-fb" />
-                            <img src={twiter_icon} alt="twiter_icon" className="blog1_author-tw" />
-                        </div>
-                    </div>
+                    <Author/>
                     <div className='blog1_paragraph1'>
                         <Content1   text1='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu velit tempus erat egestas efficitur. 
                                         In hac habitasse platea dictumst. Fusce a nunc eget ligula suscipit finibus. Aenean pharetra quis 
@@ -40,8 +32,23 @@ const Blog1 = () => {
                                         litora torquent per conubia nostra, per inceptos himenaeos.'
                                     text2='Morbi efficitur auctor metus, id mollis lorem pellentesque id. Nullam posuere maximus dui et fringilla.'/>        
                     </div>
-                    
-                      
+                    <div className='blog1_large-image'>
+                        <img className='blog1_large-img' src={Rectangle_8} alt="rectangle_8" />
+                        <div className='blog1_large-text'>Image caption centered this way and I'll make this a bit longer to indicate the amount of line-height.</div>
+                    </div>
+                    <div className='blog1_paragraph3'>
+                        <Content1  text1='Aenean pharetra quis lacus at viverra. Class aptent taciti sociosqu ad litora torquent 
+                                          per conubia nostra, per inceptos himenaeos. Aliquam quis posuere ligula.'
+                                   text2='In eu dui molestie, molestie lectus eu, semper lectus. Proin at justo lacinia, auctor 
+                                          nisl et, consequat ante. Donec sit amet nisi arcu. Morbi efficitur auctor metus, id mollis
+                                          lorem pellentesque id. Nullam posuere maximus dui et fringilla. Nulla non volutpat leo.'/>
+                    </div>
+                    <List/>
+                    <span className='blog1_regards'>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam quis posuere ligula.</span>
+                    <span className='blog1_regards'>Thanks for reading,<br/> Mika</span>
+                    <Social/>
+                    <Tags/>
+                    <img src={Line_11} alt="line" className='blog1_line11' />  
                 </div>
             </div>
         </div>
