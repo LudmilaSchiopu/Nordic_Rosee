@@ -1,14 +1,12 @@
 //import { Component } from 'react';
+import { Routes, Route, Link } from 'react-router-dom';
 
 import './app.css';
-import Navbar from '../Navbar/navbar';
-import Main from '../Main/main';
 
-import Articles from '../Articles/articles';
-import Footer from '../Footer/footer';
-import Main2 from '../Page2/Main2/main2';
-import Blog1 from '../Page2/Blog1/blog1';
 
+import Blog from '../Page2/Blog/blog';
+import Layout from '../Layout/layout';
+import Page1 from '../Page1/page';
 
 
 
@@ -17,14 +15,18 @@ function App() {
     
         return (
             <div className='app'>
-                
-                <Navbar/>
-                <Main/>
-                <Articles/>
-                <Footer/>
+                <Routes>
+                    <Route path="/" element={<Layout/>}>
+                        <Route index element={<Page1/>}/>
+                        
+                        <Route path=":id" element={<Blog/>}/>
+                    </Route>
+                </Routes>
 
-                <Main2/>
-                <Blog1/>
+
+
+                
+              
                 
             </div>
         )

@@ -1,6 +1,9 @@
 import {useState} from "react"
-import './articles.css';
 import Article from '../Article/article';
+import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+
+import './articles.css';
 
 import article1 from './../../img/article1.png';
 import article2 from './../../img/article2.png';
@@ -71,15 +74,32 @@ const defaultArticles = [
 
 const Articles = () => {
 
-    const [articles, useArticles] = useState(defaultArticles);
+    const [articles, setArticles] = useState(defaultArticles);
+    const navigate = useNavigate();
+
+    useEffect(() => {
+        fetch("https://dummyjson.com/posts")
+        .then((response) => {
+            
+            return response.json();
+        })
+        .then((json) => {
+            
+            setArticles(json.posts)
+        })
+    }, []);
+
+   
+
     return (
         <div className='articles'>
             <div className="articles_container">
                 <div className='article_title'>All articles</div>
                 <div className="articles_blogs">
                 {articles.map((article, i) => {
-                    return <Article key={i} text={article.text} link=""
-                    img={article.img}/>
+                    return <Article key={i} text={article.title} link=""
+                    img={article1}
+                    handleClick={() => navigate(`/${article.id}`)}/>
                 })}
 
 

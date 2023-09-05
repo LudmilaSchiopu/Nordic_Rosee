@@ -4,7 +4,7 @@ import Main from '../../Main/main'
 const Main2 = () => {
     return(
         <div className='main2'>
-            <div className='main_container2'>
+            <div className='main2_container'>
                 <Main/>
             </div>
         </div>

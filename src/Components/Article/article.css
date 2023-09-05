@@ -9,6 +9,7 @@
     width: 304px;
     height: 300px;
     margin-bottom: 64px;
+    cursor: pointer;
 }
 
 .article_text {
