@@ -37,6 +37,11 @@
     font-weight: 400;
 }
 
+.footer_menu a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
 .footer_social a {
     text-decoration: none;
     color:#FFFFFF;
