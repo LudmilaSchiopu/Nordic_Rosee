@@ -1,5 +1,6 @@
 
 import { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom';
 
 
 import './blog.css';
@@ -19,9 +20,10 @@ import Main2 from '../Main2/main2';
 const Blog1 = () => {
     
     const [blog, setBlog] = useState();
+    const params = useParams();
 
     useEffect(() => {
-        fetch("https://dummyjson.com/posts/1")
+        fetch(`https://dummyjson.com/posts/${params.id}`)
         .then((response) => {
             
             return response.json();
@@ -30,7 +32,7 @@ const Blog1 = () => {
             console.log(json.body)
             setBlog(json)
         })
-    }, []);
+    }, [params.id]);
 
     return (
         <div>
